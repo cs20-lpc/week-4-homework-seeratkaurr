@@ -1,4 +1,3 @@
-// TODO:  Course class definitins go here.
 #ifndef COURSE_HPP
 #define COURSE_HPP
 
@@ -16,3 +15,4 @@ public:
 };
 
 #endif
+
