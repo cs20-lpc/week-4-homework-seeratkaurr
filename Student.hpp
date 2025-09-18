@@ -1,4 +1,3 @@
-// TO DO:  Student class definition  here.
 #ifndef STUDENT_HPP
 #define STUDENT_HPP
 
@@ -11,12 +10,14 @@ public:
     int id;
     string name;
     float gpa;
-    Course* courseH;     // Head of course list
-    Student* next;
+    Course* courseHead;   
+    Student* next;        
 
     Student(int id, string name, float gpa);
+
     void addCourse(const string& courseName, const string& location);
     void displayCourses() const;
 };
 
 #endif
+
